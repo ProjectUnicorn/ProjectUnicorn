@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from .tables import *
+from .models import *
 
 # Create your views here.
 class ApplicationListTableView(TemplateView):
