@@ -23,10 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@fcmuxzin7j&6(h@3(w)4&278&w^(b^q0ea#q=nv0scrdl=plx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    'projectunicorn.test.aau.dk',
+    'projectunicorn.aau.dk',
 ]
 
 
@@ -35,8 +35,6 @@ ALLOWED_HOSTS = [
 INSTALLED_APPS = [
     'django.contrib.admin',
     'applicationlist.apps.ApplicationlistConfig'
-    'django_tables2',
-    'django_filters',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
