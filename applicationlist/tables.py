@@ -11,4 +11,4 @@ class ApplicationListTable(tables.Table):
     class Meta:
         model = Application
         sequence = 'applicationId','applicationName','applicationSystemOwner','applicationDescription','applicationOneNoteId'
-        attrs = {'class': 'table'}
+        attrs = {'class': 'table table-striped table-bordered table-hover table-condensed'}
