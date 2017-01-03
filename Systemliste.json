@@ -1,0 +1,1641 @@
+[
+{
+  "model": "applicationlist.application",
+  "pk": 300,
+  "fields": {
+    "applicationId": 16,
+    "applicationName": "A500 ",
+    "applicationDescription": "(bibliotekssystem) mv.",
+    "applicationSystemOwner": "Niels Henrik Gylstorff?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 301,
+  "fields": {
+    "applicationId": 144,
+    "applicationName": "Active Directory",
+    "applicationDescription": "Backend til h\u00e5ndtering af bruger og system konti, adgangsstyring mv.",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 302,
+  "fields": {
+    "applicationId": 71,
+    "applicationName": "ADK",
+    "applicationDescription": "Adgangskontrol til AAU",
+    "applicationSystemOwner": "TF/Torben Gregersen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 303,
+  "fields": {
+    "applicationId": 41,
+    "applicationName": "ADMdb",
+    "applicationDescription": "Brugeroprettelse (IT)",
+    "applicationSystemOwner": "ITS/ Kirsten Hjerrild Nielsen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 304,
+  "fields": {
+    "applicationId": 78,
+    "applicationName": "Adobe Connect",
+    "applicationDescription": "Videom\u00f8der",
+    "applicationSystemOwner": "Deic.dk",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 305,
+  "fields": {
+    "applicationId": 6,
+    "applicationName": "Adramatch",
+    "applicationDescription": "en l\u00f8sning til automatisering, standardisering og visualisering af h\u00e5ndteringen af transaktioner og til oprettelse af afslutningsbilag for balancekonti til m\u00e5nedsafslutningen.",
+    "applicationSystemOwner": "Jan W. Bech",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 306,
+  "fields": {
+    "applicationId": 92,
+    "applicationName": "AFS Storage",
+    "applicationDescription": "Netv\u00e6rksfilsystem for Elektroniske Systemer. Udfasning omkring 2017/2018.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 307,
+  "fields": {
+    "applicationId": 54,
+    "applicationName": "Aleph",
+    "applicationDescription": "",
+    "applicationSystemOwner": "Niels Henrik Gylstorff?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 308,
+  "fields": {
+    "applicationId": 40,
+    "applicationName": "Alinto",
+    "applicationDescription": "Kandidatnet",
+    "applicationSystemOwner": "Christian Volmer",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 309,
+  "fields": {
+    "applicationId": 143,
+    "applicationName": "Antivirus",
+    "applicationDescription": "Udrulning af antivirus pakker, samt drift af opdateringsservere",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 310,
+  "fields": {
+    "applicationId": 93,
+    "applicationName": "Applikationsservere - Linux",
+    "applicationDescription": "Linux-baserede servere hvor forskere og studerende afvikler programmer til forskning og undervisning samt laver LaTeX rapporter og artikler. Findes for CS, HST, Mat, ES, HUM",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 311,
+  "fields": {
+    "applicationId": 94,
+    "applicationName": "Applikationsservere - Windows",
+    "applicationDescription": "Windows-baserede servere hvor forskere og studerende afvikler programmer til forskning og undervisning",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 312,
+  "fields": {
+    "applicationId": 29,
+    "applicationName": "Arealweb/Arealdatabase",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 313,
+  "fields": {
+    "applicationId": 95,
+    "applicationName": "Artifactory",
+    "applicationDescription": "[SP\u00d8RG PL/JKC]",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 314,
+  "fields": {
+    "applicationId": 28,
+    "applicationName": "Autocad",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 315,
+  "fields": {
+    "applicationId": 103,
+    "applicationName": "BasisAdmin",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 316,
+  "fields": {
+    "applicationId": 91,
+    "applicationName": "CalMoodle",
+    "applicationDescription": "Kalenderv\u00e6rkt\u00f8j til Moodle",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 317,
+  "fields": {
+    "applicationId": 15,
+    "applicationName": "Captia",
+    "applicationDescription": "Sags og dokument h\u00e5ndtering. Bruges ogs\u00e5 som AAUs arkivsystem",
+    "applicationSystemOwner": "Leder af Ledelsessekretariatet",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 318,
+  "fields": {
+    "applicationId": 60,
+    "applicationName": "CMS/Infoglue (nyt webdesign)",
+    "applicationDescription": "Redigering og visning af AAU hjemmesider",
+    "applicationSystemOwner": "ITS?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 319,
+  "fields": {
+    "applicationId": 61,
+    "applicationName": "CMS/Infoglue (Under udfasning)",
+    "applicationDescription": "Redigering og visning af AAU hjemmesider",
+    "applicationSystemOwner": "ITS?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 320,
+  "fields": {
+    "applicationId": 55,
+    "applicationName": "CRM",
+    "applicationDescription": "CRM system til AAU Innovation og SBI",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 321,
+  "fields": {
+    "applicationId": 34,
+    "applicationName": "CTS ",
+    "applicationDescription": "Bygningsstyring som driftes i samarbejde med Schneider Eletric. D\u00e6kker hele Aalborg og Esbjerg med undtagelse af Pontoppidanstr\u00e6de.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 322,
+  "fields": {
+    "applicationId": 100,
+    "applicationName": "Cumulus",
+    "applicationDescription": "Billeddatabase server til fotos",
+    "applicationSystemOwner": "AAU Kommunikation",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 323,
+  "fields": {
+    "applicationId": 65,
+    "applicationName": "data.aau.dk",
+    "applicationDescription": "Et antal REST webservices brugt af andre systemer",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 324,
+  "fields": {
+    "applicationId": 38,
+    "applicationName": "Digital Eksamen",
+    "applicationDescription": "Ops\u00e6tning af pr\u00f8ver, Aflevering af besvarelser, karaktergivning",
+    "applicationSystemOwner": "Lone Vesterg\u00e5rd",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 325,
+  "fields": {
+    "applicationId": 97,
+    "applicationName": "Digital Signatur",
+    "applicationDescription": "System til h\u00e5ndtering af digitale medarbejdersignaturer",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 326,
+  "fields": {
+    "applicationId": 140,
+    "applicationName": "DNS og SSL",
+    "applicationDescription": "Drift af systemer samt indk\u00f8b og konfiguration af DNS-navne og SSL-certikater.\n\nNormalt er det delkomponent til andre systemer (Infoglue, Sharepoint etc), men andre gange bestilles det ogs\u00e5 direkte.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 327,
+  "fields": {
+    "applicationId": 133,
+    "applicationName": "e-boks print ",
+    "applicationDescription": "Status: Forslag til system - i proces.\nForm\u00e5l er at g\u00f8re det muligt at afsende digital post - i dag kan vi kun modtage. F\u00f8rste bruger er forsker p\u00e5 Civil der skal sende sp\u00f8rgeskemaer ud.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 328,
+  "fields": {
+    "applicationId": 42,
+    "applicationName": "Eduser",
+    "applicationDescription": "Mini IDM system til IT",
+    "applicationSystemOwner": "ITS/ Kirsten Hjerrild Nielsen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 329,
+  "fields": {
+    "applicationId": 27,
+    "applicationName": "Energykey",
+    "applicationDescription": "Dataopsamling fra energisensorer",
+    "applicationSystemOwner": "TF / Kenneth Hansen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 330,
+  "fields": {
+    "applicationId": 12,
+    "applicationName": "Ephorus",
+    "applicationDescription": "Plagiatkontrol",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 331,
+  "fields": {
+    "applicationId": 52,
+    "applicationName": "ERAP",
+    "applicationDescription": "Simpelt konferencesystem",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 332,
+  "fields": {
+    "applicationId": 11,
+    "applicationName": "E-valg",
+    "applicationDescription": "Valg system",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 333,
+  "fields": {
+    "applicationId": 88,
+    "applicationName": "Exam Monitor",
+    "applicationDescription": "V\u00e6rkt\u00f8j der annvendes til stedpr\u00f8ver. Optager regelm\u00e6ssigt den studerendes sk\u00e6rm, og lagres informationen. Benyttes til at sikre at den studerende ikke anvender ulovlige  digitale hj\u00e6lpemidler",
+    "applicationSystemOwner": "Lone Vesterg\u00e5rd",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 334,
+  "fields": {
+    "applicationId": 74,
+    "applicationName": "Feriefond",
+    "applicationDescription": "Holder styr p\u00e5 feriepenge / feriefonden",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 335,
+  "fields": {
+    "applicationId": 37,
+    "applicationName": "FI&D",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 336,
+  "fields": {
+    "applicationId": 63,
+    "applicationName": "Fildeling",
+    "applicationDescription": "Upload af store filer samt filer der skal adgangsbeskyttes via CAS",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 337,
+  "fields": {
+    "applicationId": 98,
+    "applicationName": "Filservice",
+    "applicationDescription": "Personlige og f\u00e6lles fildrev for alle studerende og ansatte til administration, forskning og undervisning",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 338,
+  "fields": {
+    "applicationId": 24,
+    "applicationName": "FirstClass",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 339,
+  "fields": {
+    "applicationId": 118,
+    "applicationName": "FTP",
+    "applicationDescription": "Upload af data i forskningssammenh\u00e6ng for HST, ES",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 340,
+  "fields": {
+    "applicationId": 85,
+    "applicationName": "Google Analytics",
+    "applicationDescription": "At opsamle og kunne levere statistik p\u00e5 brugen af AAU's hjemmesider",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 341,
+  "fields": {
+    "applicationId": 84,
+    "applicationName": "Google Forms",
+    "applicationDescription": "Formularer til indlejring p\u00e5 hjemmesider",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 342,
+  "fields": {
+    "applicationId": 87,
+    "applicationName": "Google Tag Manager",
+    "applicationDescription": "Alt rumme alle tags, der skal udl\u00f8ses p\u00e5 den enkelte hjemmeside",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 343,
+  "fields": {
+    "applicationId": 86,
+    "applicationName": "Google Webmaster Tools",
+    "applicationDescription": "Overv\u00e5gning af hjemmesider i forhold til fejl, hacking etc.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 344,
+  "fields": {
+    "applicationId": 123,
+    "applicationName": "Housing af servere",
+    "applicationDescription": "Housing af servere for forskere, dvs. str\u00f8m, k\u00f8l og netv\u00e6rk for maskiner administreret af forskere selv. Variant med adgang til udstyr med eller uden ledsaget adgang i forskellige maskinstuer.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 345,
+  "fields": {
+    "applicationId": 135,
+    "applicationName": "HPC",
+    "applicationDescription": "Installation og servicering af lokale cluster beregningsl\u00f8sninger. Teknologisk r\u00e5dgivning om platform og anvendelse.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 346,
+  "fields": {
+    "applicationId": 101,
+    "applicationName": "Infosk\u00e6rme",
+    "applicationDescription": "AVC Infosk\u00e6rme",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 347,
+  "fields": {
+    "applicationId": 35,
+    "applicationName": "Inteum",
+    "applicationDescription": "Patentstyring",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 348,
+  "fields": {
+    "applicationId": 50,
+    "applicationName": "IRIS",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 349,
+  "fields": {
+    "applicationId": 47,
+    "applicationName": "iStads",
+    "applicationDescription": "",
+    "applicationSystemOwner": "Lone Vesterg\u00e5rd",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 350,
+  "fields": {
+    "applicationId": 75,
+    "applicationName": "Itstart",
+    "applicationDescription": "Gl system til selvoprettelse af brugere for studerende",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 351,
+  "fields": {
+    "applicationId": 21,
+    "applicationName": "Jira",
+    "applicationDescription": "Issuetracking",
+    "applicationSystemOwner": "Kirsten Hjerrild",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 352,
+  "fields": {
+    "applicationId": 142,
+    "applicationName": "Kaltura v. DeIC",
+    "applicationDescription": "Vi er ved at hj\u00e6lpe MIL med at komme fra en tidligere HUM-IKT/ITS community edition Kaltura til en kommerciel udgave af Kaltura som DeIC hoster.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 353,
+  "fields": {
+    "applicationId": 90,
+    "applicationName": "KOSMO",
+    "applicationDescription": "Kursusoprettelsessystem til Moodle",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 354,
+  "fields": {
+    "applicationId": 102,
+    "applicationName": "Licensservere",
+    "applicationDescription": "Licensservere for ca. 60 forskellige softwareprodukter fx AutoCAD, Matlab, Maple",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 355,
+  "fields": {
+    "applicationId": 104,
+    "applicationName": "Lync/Skype for Business",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 356,
+  "fields": {
+    "applicationId": 76,
+    "applicationName": "Mahara",
+    "applicationDescription": "online v\u00e6rkt\u00f8j til portfolio- og gruppearbejde",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 357,
+  "fields": {
+    "applicationId": 105,
+    "applicationName": "Mail og kalender (Exchange)",
+    "applicationDescription": "Mail og kalender for alle ansatte og studerende",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 358,
+  "fields": {
+    "applicationId": 106,
+    "applicationName": "Mailinglister",
+    "applicationDescription": "Mailman-baserede maillinglister med mulighed for self-service for at d\u00e6kke scenarier hvor Exchange ikke er velegnet",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 359,
+  "fields": {
+    "applicationId": 25,
+    "applicationName": "MdocFM",
+    "applicationDescription": "Facility management system",
+    "applicationSystemOwner": "TF",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 360,
+  "fields": {
+    "applicationId": 26,
+    "applicationName": "Minuba",
+    "applicationDescription": "Sagstyringssytem til registrering af udest\u00e5ende og vedligehol p\u00e5 bygninger",
+    "applicationSystemOwner": "TF",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 361,
+  "fields": {
+    "applicationId": 30,
+    "applicationName": "Moodle",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 362,
+  "fields": {
+    "applicationId": 70,
+    "applicationName": "Mossad",
+    "applicationDescription": "Brugeroprettelse og adgangstildeling p\u00e5 Oracle systemer",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 363,
+  "fields": {
+    "applicationId": 107,
+    "applicationName": "MS SQL",
+    "applicationDescription": "Databasekapacitet til lagring og bearbejdning af data, ofte som backend til andre systemer og applikationer",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 364,
+  "fields": {
+    "applicationId": 108,
+    "applicationName": "MySQL",
+    "applicationDescription": "Databasekapacitet til lagring og bearbejdning af forskningsdata eller data i forbindelse med projektarbejde.\n\nFindes ogs\u00e5 i stor grad som delkomponent til diverse webting hvor de er \"indlejeret\" p\u00e5 webserverne.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 365,
+  "fields": {
+    "applicationId": 109,
+    "applicationName": "Navision - Studentersamfundet",
+    "applicationDescription": "Navision for Studentersamfundet",
+    "applicationSystemOwner": "Studentersamfundet",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 366,
+  "fields": {
+    "applicationId": 110,
+    "applicationName": "Navision - Aalborg Universitetsforlag",
+    "applicationDescription": "Navision for Aalborg Universitetsforlag",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 367,
+  "fields": {
+    "applicationId": 58,
+    "applicationName": "Nemrefusion (SNIF)",
+    "applicationDescription": "Integration mellem sygefrav\u00e6r system og virk.dk mht at sende refusion for sygdom og barsel/for\u00e6lderorlov til virk.dk",
+    "applicationSystemOwner": "HR-afdelingen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 368,
+  "fields": {
+    "applicationId": 141,
+    "applicationName": "Netv\u00e6rk - s\u00e6rligt LAB-netv\u00e6rk for ES",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 369,
+  "fields": {
+    "applicationId": 125,
+    "applicationName": "Netv\u00e6rk for brugere",
+    "applicationDescription": "Tr\u00e5dl\u00f8st og kablet netv\u00e6rk for brugere",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 370,
+  "fields": {
+    "applicationId": 148,
+    "applicationName": "Netv\u00e6rksinfrastruktur",
+    "applicationDescription": "Fiberforbindelser og netv\u00e6rksudstyr der binder AAU sammen p\u00e5 tv\u00e6rs af lokationer og g\u00f8r netv\u00e6rk tilg\u00e6ngeligt for servere.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 371,
+  "fields": {
+    "applicationId": 72,
+    "applicationName": "Netwise",
+    "applicationDescription": "Omstillings central til telefoni",
+    "applicationSystemOwner": "TF",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 372,
+  "fields": {
+    "applicationId": 132,
+    "applicationName": "Office 365 eksperimentiel",
+    "applicationDescription": "Cloudservice med mange forskellige produkter",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 373,
+  "fields": {
+    "applicationId": 151,
+    "applicationName": "Oracle Applikationsservere",
+    "applicationDescription": "Drift af applikationsservere til underst\u00f8ttelse af bl.a. egenudviklede systemer",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 374,
+  "fields": {
+    "applicationId": 150,
+    "applicationName": "Oracle databaser",
+    "applicationDescription": "Drift af databaser til underst\u00f8ttelse af bl.a. egenudviklede systemer",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 375,
+  "fields": {
+    "applicationId": 83,
+    "applicationName": "ordbog.aau.dk",
+    "applicationDescription": "AAU terminologiliste dansk-engelsk",
+    "applicationSystemOwner": "AAU Language and Communication Services",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 376,
+  "fields": {
+    "applicationId": 111,
+    "applicationName": "Overv\u00e5gning",
+    "applicationDescription": "Overv\u00e5gning af systemhelbred for ITS og source systemer",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 377,
+  "fields": {
+    "applicationId": 49,
+    "applicationName": "PDS",
+    "applicationDescription": "PersonDataSystemet",
+    "applicationSystemOwner": "HR-afdelingen (som dog ikke vil vedkende sig systemejerskabet)",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 378,
+  "fields": {
+    "applicationId": 14,
+    "applicationName": "PeopleXS",
+    "applicationDescription": "E-rekkruttering",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 379,
+  "fields": {
+    "applicationId": 67,
+    "applicationName": "Personaleinfo",
+    "applicationDescription": "Viser en personprofil for personer p\u00e5 AAU.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 380,
+  "fields": {
+    "applicationId": 112,
+    "applicationName": "Personlige websider",
+    "applicationDescription": "Diverse systemer og teknologier som stiller personlige hjemmesider til r\u00e5dighed for ansatte og studerende. Findes som enkelte (ikke konsoliderede) systemer for de fleste institutter/afdelinger.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 381,
+  "fields": {
+    "applicationId": 36,
+    "applicationName": "PhDmanager",
+    "applicationDescription": "Phd administation",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 382,
+  "fields": {
+    "applicationId": 113,
+    "applicationName": "PostGRE SQL",
+    "applicationDescription": "Databasekapacitet til lagring og bearbejdning af forskningsdata eller data i forbindelse med projektarbejde.\n\nEr dedikeret komponent til Moodle.\n\nFindes ogs\u00e5 i som delkomponent til diverse webting hvor de er \"indlejeret\" p\u00e5 webserverne.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 383,
+  "fields": {
+    "applicationId": 17,
+    "applicationName": "Primo ",
+    "applicationDescription": "(bibliotekssystem)",
+    "applicationSystemOwner": "Niels Henrik Gylstorff?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 384,
+  "fields": {
+    "applicationId": 137,
+    "applicationName": "Print for \u00d8SS og STADS",
+    "applicationDescription": "System til at printe direkte fra \u00d8SS og STADS til printere",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 385,
+  "fields": {
+    "applicationId": 114,
+    "applicationName": "Print og kopi",
+    "applicationDescription": "Print og kopi p\u00e5 printere og kopimaskiner.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 386,
+  "fields": {
+    "applicationId": 23,
+    "applicationName": "ProjectFlow",
+    "applicationDescription": "Projektstyring",
+    "applicationSystemOwner": "SOP",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 387,
+  "fields": {
+    "applicationId": 53,
+    "applicationName": "Projektbiblioteket",
+    "applicationDescription": "Online publicering af digitale udgaver af afgangsprojekter og specialer fra hele universitetet\u00a0",
+    "applicationSystemOwner": "Niels Henrik Gylstorff?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 388,
+  "fields": {
+    "applicationId": 8,
+    "applicationName": "Prophix",
+    "applicationDescription": "Budgetering",
+    "applicationSystemOwner": "\u00d8A/Gitte Hartung",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 389,
+  "fields": {
+    "applicationId": 9,
+    "applicationName": "Qlikview",
+    "applicationDescription": "BI v\u00e6rkt\u00f8j, ledelsesrapportering",
+    "applicationSystemOwner": "\u00d8A / Morten Winterberg",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 390,
+  "fields": {
+    "applicationId": 145,
+    "applicationName": "Quest",
+    "applicationDescription": "Kalendersynkronisering mellem RN og AAU",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 391,
+  "fields": {
+    "applicationId": 134,
+    "applicationName": "REDcap",
+    "applicationDescription": "Status: Forslag til system - i proces.\nForm\u00e5l er opbevaring og samarbejde af potentielt fortrolig data til is\u00e6r det sundhedsvidenskabelige omr\u00e5de.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 392,
+  "fields": {
+    "applicationId": 96,
+    "applicationName": "Refworks",
+    "applicationDescription": "AIU / Eksternt",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 393,
+  "fields": {
+    "applicationId": 32,
+    "applicationName": "RES",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 394,
+  "fields": {
+    "applicationId": 3,
+    "applicationName": "RUS",
+    "applicationDescription": "Rejseafregningssystem",
+    "applicationSystemOwner": "\u00d8A / Morten Winterberg",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 395,
+  "fields": {
+    "applicationId": 7,
+    "applicationName": "SAS",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 396,
+  "fields": {
+    "applicationId": 13,
+    "applicationName": "ScanPas",
+    "applicationDescription": "HR system",
+    "applicationSystemOwner": "S\u00f8ren Vaagholdt Nielsen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 397,
+  "fields": {
+    "applicationId": 116,
+    "applicationName": "Secureaware",
+    "applicationDescription": "Information security management system (ISMS) til at st\u00f8tte informationsikkerhedsarbejde v. Henrik Johannes Rask",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 398,
+  "fields": {
+    "applicationId": 149,
+    "applicationName": "Server og storage infrastruktur",
+    "applicationDescription": "Drift af servere, storage, virtualisering og backup som infrastruktur til alle ITS hostede services.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 399,
+  "fields": {
+    "applicationId": 131,
+    "applicationName": "Service Manager",
+    "applicationDescription": "System til h\u00e5ndtering af incidents og service requests for alle AAU's brugere med backend brug i ITS samt enkelte andre i F\u00e6lles Service",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 400,
+  "fields": {
+    "applicationId": 119,
+    "applicationName": "Sharepoint",
+    "applicationDescription": "Samarbejdsv\u00e6rkt\u00f8j, findes i en instanser",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 401,
+  "fields": {
+    "applicationId": 122,
+    "applicationName": "SikkerDataAdgang",
+    "applicationDescription": "Fjernskrivebordsservere til behandling af personf\u00f8lsomme og andre fortrolige data i en \"sandbox\" hvor output logges. Udviklet for Folkesundhedsvidenskab, HST men kan givetvis ogs\u00e5 bruges af andre forskningsgrupper.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 402,
+  "fields": {
+    "applicationId": 4,
+    "applicationName": "SLS",
+    "applicationDescription": "Statens L\u00f8nsystem",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 403,
+  "fields": {
+    "applicationId": 120,
+    "applicationName": "SMS gateway",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 404,
+  "fields": {
+    "applicationId": 43,
+    "applicationName": "Sodexo",
+    "applicationDescription": "Kantine Service booking (p\u00e5 hele AAU?)",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 405,
+  "fields": {
+    "applicationId": 10,
+    "applicationName": "STADS",
+    "applicationDescription": "Studieadministrativt system",
+    "applicationSystemOwner": "Studiechefen/ Lone Vesterg\u00e5rd",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 406,
+  "fields": {
+    "applicationId": 48,
+    "applicationName": "Stads Selvbetjening",
+    "applicationDescription": "Selvbetjening for de studerende for egen studieplads",
+    "applicationSystemOwner": "Lone Vesterg\u00e5rd",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 407,
+  "fields": {
+    "applicationId": 45,
+    "applicationName": "Stads-Dans",
+    "applicationDescription": "",
+    "applicationSystemOwner": "Lone Vesterg\u00e5rd",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 408,
+  "fields": {
+    "applicationId": 46,
+    "applicationName": "Stads-VIP",
+    "applicationDescription": "",
+    "applicationSystemOwner": "Lone Vesterg\u00e5rd",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 409,
+  "fields": {
+    "applicationId": 20,
+    "applicationName": "STATA",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 410,
+  "fields": {
+    "applicationId": 82,
+    "applicationName": "Stillinger.aau.dk + vacancies.aau.dk",
+    "applicationDescription": "Webvisning af ledige stillinger p\u00e5 AAU",
+    "applicationSystemOwner": "HR?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 411,
+  "fields": {
+    "applicationId": 64,
+    "applicationName": "Studieguide / studyguide",
+    "applicationDescription": "AAU's online markedsf\u00f8ring af bachelor- og kandidat og uddannelse p\u00e5 dansk og engelsk",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 412,
+  "fields": {
+    "applicationId": 121,
+    "applicationName": "Subversion",
+    "applicationDescription": "Versionskontrol for ansatte og studerende til projekter.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 413,
+  "fields": {
+    "applicationId": 68,
+    "applicationName": "SuperCard",
+    "applicationDescription": "Print af adgangskort ansatte og studerende. ",
+    "applicationSystemOwner": "Administrationen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 414,
+  "fields": {
+    "applicationId": 117,
+    "applicationName": "Surveybanken.",
+    "applicationDescription": "System til analyser af indsamlede surveys for Institut for Statskundskab.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 415,
+  "fields": {
+    "applicationId": 19,
+    "applicationName": "SurveyXact ",
+    "applicationDescription": "sp\u00f8rgeskemaprogram",
+    "applicationSystemOwner": "Niels Henrik Gylstorff?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 416,
+  "fields": {
+    "applicationId": 57,
+    "applicationName": "Sygfra Central",
+    "applicationDescription": "Til administartion af sygefrav\u00e6r/barsel/for\u00e6ldreorlov/refusion",
+    "applicationSystemOwner": "HR-afdelingen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 417,
+  "fields": {
+    "applicationId": 56,
+    "applicationName": "Sygfra Decentral",
+    "applicationDescription": "Til indberetning af sygfrav\u00e6r fra decentrale brugere",
+    "applicationSystemOwner": "HR-afdelingen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 418,
+  "fields": {
+    "applicationId": 124,
+    "applicationName": "Telefoni",
+    "applicationDescription": "IP og mobiltelefoni for AAU ansatte",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 419,
+  "fields": {
+    "applicationId": 66,
+    "applicationName": "Telefoniformular",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 420,
+  "fields": {
+    "applicationId": 115,
+    "applicationName": "Terminalservere",
+    "applicationDescription": "Til administrative systemer for Mac og Linux-brugere og ansatte p\u00e5 Klinisk Institut",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 421,
+  "fields": {
+    "applicationId": 79,
+    "applicationName": "Tilsynsdatabase",
+    "applicationDescription": "Til at holde styr p\u00e5 eksamentilsyns-medarbejdere. Ejes af TekNat, men bruges ogs\u00e5 af Hum og Samf. Men kun til nogen studier (deres eksamner)",
+    "applicationSystemOwner": "TekNat-Fakultetskontor",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 422,
+  "fields": {
+    "applicationId": 22,
+    "applicationName": "TimeLog",
+    "applicationDescription": "Ressourceoverblik",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 423,
+  "fields": {
+    "applicationId": 5,
+    "applicationName": "Timesheet",
+    "applicationDescription": "Administration (godkendelse) af timesedler",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 424,
+  "fields": {
+    "applicationId": 77,
+    "applicationName": "Typo3",
+    "applicationDescription": "CMS til hjemmesider (ogs\u00e5 de som ikke overholder AAU design)",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 425,
+  "fields": {
+    "applicationId": 147,
+    "applicationName": "Tyv",
+    "applicationDescription": "Tyverisikringssystem",
+    "applicationSystemOwner": "TF/Torben Gregersen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 426,
+  "fields": {
+    "applicationId": 31,
+    "applicationName": "UniStart",
+    "applicationDescription": "System til h\u00e5ndtering af optagelsen",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 427,
+  "fields": {
+    "applicationId": 18,
+    "applicationName": "VBN",
+    "applicationDescription": "forskningsregistrering samt analyseredskaber",
+    "applicationSystemOwner": "Niels Henrik Gylstorff?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 428,
+  "fields": {
+    "applicationId": 139,
+    "applicationName": "Videokonference",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 429,
+  "fields": {
+    "applicationId": 99,
+    "applicationName": "Virtuelle maskiner til brugere",
+    "applicationDescription": "Til underst\u00f8ttelse af forskning og undervisning",
+    "applicationSystemOwner": "ITS",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 430,
+  "fields": {
+    "applicationId": 80,
+    "applicationName": "Visitkort Generator",
+    "applicationDescription": "Til at generere visitkort",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 431,
+  "fields": {
+    "applicationId": 126,
+    "applicationName": "VNC",
+    "applicationDescription": "Grafisk fjernadgang til Linux-baserede applikationer p\u00e5 systemer for HST.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 432,
+  "fields": {
+    "applicationId": 129,
+    "applicationName": "VPN",
+    "applicationDescription": "Danner sikker forbindelse til AAU for computere og tablets over Internettet.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 433,
+  "fields": {
+    "applicationId": 73,
+    "applicationName": "WAYF",
+    "applicationDescription": "Identitetsf\u00f8deration",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 434,
+  "fields": {
+    "applicationId": 51,
+    "applicationName": "WBM",
+    "applicationDescription": "Webbetalingmodul",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 435,
+  "fields": {
+    "applicationId": 44,
+    "applicationName": "WebBook",
+    "applicationDescription": "Booking af seminarrum m.m.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 436,
+  "fields": {
+    "applicationId": 127,
+    "applicationName": "Webservere - Linux",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 437,
+  "fields": {
+    "applicationId": 128,
+    "applicationName": "Wordpress",
+    "applicationDescription": "System til webblogs til hjemmesider eller konferencer typisk m. eksterne brugere.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 438,
+  "fields": {
+    "applicationId": 130,
+    "applicationName": "Workstations Matematik (Ubuntu Linux)",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 439,
+  "fields": {
+    "applicationId": 146,
+    "applicationName": "\u00d8S LDV",
+    "applicationDescription": "L\u00f8ndatavarehus - moderniseringsstyrelsen leverer periodiske data til applikationen",
+    "applicationSystemOwner": "\u00d8A",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 440,
+  "fields": {
+    "applicationId": 1,
+    "applicationName": "\u00d8SS",
+    "applicationDescription": "\u00d8konomisystem",
+    "applicationSystemOwner": "\u00d8A / Morten Winterberg",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 441,
+  "fields": {
+    "applicationId": 2,
+    "applicationName": "\u00d8SS egenudvikling(rapporter, ws,scripts)",
+    "applicationDescription": "Egenudviklet knopskydninger p\u00e5 \u00d8SS",
+    "applicationSystemOwner": "\u00d8A / Morten Winterberg",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 442,
+  "fields": {
+    "applicationId": 33,
+    "applicationName": "AAU Adgangskontrol",
+    "applicationDescription": "Web single signon",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 443,
+  "fields": {
+    "applicationId": 136,
+    "applicationName": "AAU Fjernsupport",
+    "applicationDescription": "System til fjernsupport for ITS til alle AAU ansatte.",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 444,
+  "fields": {
+    "applicationId": 81,
+    "applicationName": "AAU H\u00e5ndbogen",
+    "applicationDescription": "Politikker, regler, procedurer mm. prim\u00e6rt fra HR, \u00d8konomi og Ledelsessekretariat",
+    "applicationSystemOwner": "HR/Ledelsessekretariatet?",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 445,
+  "fields": {
+    "applicationId": 62,
+    "applicationName": "AAU Maps",
+    "applicationDescription": "Visning af AAU adresser p\u00e5 kort",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 446,
+  "fields": {
+    "applicationId": 39,
+    "applicationName": "AAU Search",
+    "applicationDescription": "",
+    "applicationSystemOwner": "",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 447,
+  "fields": {
+    "applicationId": 69,
+    "applicationName": "AAUcard",
+    "applicationDescription": "Web-modul til styring af studiekort/medarbejderkort/servicekort",
+    "applicationSystemOwner": "Administrationen",
+    "applicationOneNoteId": ""
+  }
+},
+{
+  "model": "applicationlist.application",
+  "pk": 448,
+  "fields": {
+    "applicationId": 59,
+    "applicationName": "AAU-FRAV",
+    "applicationDescription": "Integration mellem sygefrav\u00e6r system og SLS HR-system mht at sende data for sygdom og barsel/for\u00e6lderorlov til Modeniseringsstyrelsen",
+    "applicationSystemOwner": "HR-afdelingen",
+    "applicationOneNoteId": ""
+  }
+}
+]
