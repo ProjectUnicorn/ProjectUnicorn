@@ -16,7 +16,7 @@ sudo python get-pip.py
 
 git clone https://github.com/ProjectUnicorn/ProjectUnicorn
 cd ProjectUnicorn
-vim projectunicorn/settings.py # tilføj 127.0.0.1 i ALLOWED_HOSTS og ændr til
+vim projectunicorn/settings.py # tilføj localhost i ALLOWED_HOSTS og ændr til
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
