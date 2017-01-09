@@ -9,7 +9,7 @@ you should now have a projectunicorn-env folder next to manage.py
 
 
 ##On Windows bash.exe
-
+```bash
 wget https://bootstrap.pypa.io/get-pip.py
 sudo apt-get install git
 sudo python get-pip.py
@@ -34,3 +34,4 @@ pip install django_filter <-- filters?
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver 8080
+```
