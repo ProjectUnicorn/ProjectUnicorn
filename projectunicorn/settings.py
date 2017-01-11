@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'projectunicorn.test.aau.dk',
+    'localhost',
 ]
 
 
@@ -80,13 +81,11 @@ WSGI_APPLICATION = 'projectunicorn.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS': {
-            'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
-        },
-
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
     }
 }
+
 
 
 # Password validation
