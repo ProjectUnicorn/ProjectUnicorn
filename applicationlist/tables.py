@@ -10,5 +10,5 @@ class ApplicationListTable(tables.Table):
 
     class Meta:
         model = Application
-        sequence = 'applicationId','applicationName','applicationSystemOwner','applicationDescription'
+        sequence = 'applicationId','applicationName','applicationSystem','applicationSystemOwner','applicationSystemOwnerContact','applicationDescription'
         attrs = {'class': 'table table-striped table-bordered table-hover table-condensed'}

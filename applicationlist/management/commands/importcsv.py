@@ -16,5 +16,7 @@ class Command(BaseCommand):
       ejer    = row["Systemejer"]
       navn    = row["AAU Navn"]
       app_id  = int(row["ID"])
-      a = applicationlist.models.Application(applicationId=app_id, applicationName=navn, applicationDescription=formaal, applicationSystemOwner=ejer, applicationOneNoteId="")
+      system = row["Produktnavn"]
+      contact = row["Systemforvalter (eksisterende)"]
+      a = applicationlist.models.Application(applicationId=app_id, applicationName=navn, applicationDescription=formaal, applicationSystemOwner=ejer, applicationSystemOwnerContact=contact, applicationSystem=system)
       a.save()
