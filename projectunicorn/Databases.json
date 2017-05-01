@@ -1,0 +1,12 @@
+{
+	"LOCAL": {
+		"ENGINE": "django.db.backends.sqlite3",
+		"NAME": "db.sqlite3",
+		"OPTIONS": ""
+	},
+	"PRODUCTION": {
+		"ENGINE": "django.db.backends.mysql",
+		"NAME": "mysql",
+		"OPTIONS": "'read_default_file': os.path.join(BASE_DIR, \"../MySQL-Credentials.cnf\")"
+	}
+}
