@@ -15,14 +15,11 @@ import json
 # Function to check if sql credentials "MySQL_Credentials.cnf" exists. Output True/False
 from projectunicorn.settingsfunctions import check_if_sql_directory_exists
 
-# Determines if this is development or production
-path = os.path.dirname(os.path.realpath(__file__))
-production_validation = check_if_sql_directory_exists(path)
-
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Determines if this is development or production
+production_validation = check_if_sql_directory_exists(BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
@@ -85,25 +82,25 @@ WSGI_APPLICATION = 'projectunicorn.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
-databases = json.load(open(path + '/Databases.json')) 
-
-engine = databases['LOCAL']['ENGINE']
-name = databases['LOCAL']['NAME']
-
-DATABASES = {
-    'default': {
-        'ENGINE': engine,
-        'NAME': name,
-	'OPTIONS': { },
-    }
-}
+# https://docs.djangoproject.com/en/1.10/ref/settings/#databases 
+DATABASES = {}
 if production_validation:
-	DATABASES['default']['ENGINE'] = databases['PRODUCTION']['ENGINE']
-	DATABASES['default']['NAME'] = databases['PRODUCTION']['NAME']
-	DATABASES['default']['OPTIONS'] = databases['PRODUCTION']['OPTIONS']
-
+    DATABASES = {
+	    'default': {
+	    	    'ENGINE': 'django.db.backends.mysql',
+		    'OPTIONS': {
+		    	'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+		    	'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
+		    },
+	    }
+    }
+else:
+    DATABASES = {
+	    'default': {
+		    'ENGINE': 'django.db.backends.sqlite3',
+		    'NAME': 'db.sqlite3',
+	    },
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
