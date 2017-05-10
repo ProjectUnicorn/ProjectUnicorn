@@ -16,5 +16,6 @@ class ApplicationListTableView(TemplateView):
         table = ApplicationListTable(self.get_queryset(**kwargs))
         table.exclude = ('id')
         RequestConfig(self.request).configure(table)
+        RequestConfig(self.request, paginate={'per_page':Application.objects.count()}).configure(table)
         context['table'] = table
         return context
