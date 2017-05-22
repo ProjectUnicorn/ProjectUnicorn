@@ -1,0 +1,14 @@
+Source: http://www.django-rest-framework.org/
+
+djangorestframework 	: pip install djangorestframework
+markdown 		: pip install markdown
+filter			: pip install django-filter
+
+urls:
+using HTTPie (pip install HTTPie)
+	/api/applicationlist
+		applicationlist API
+		http localhost:8000/api/applicationlist/ 'Authorization: Token foo'
+	/api/token
+		get token on user. 
+		http localhost:8000/api/token/ username='foo' password='bar'
