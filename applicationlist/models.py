@@ -12,10 +12,10 @@ def create_auth_token(sender, instance=None, created=False, **kwargs):
 # Create your models here.
 class Application(models.Model):
     applicationId = models.IntegerField(unique=True,db_index=True,verbose_name="ID")
-    applicationName = models.CharField(db_index=True, max_length=250,verbose_name="Navn")
+    applicationName = models.CharField(db_index=True, max_length=250,verbose_name="Service")
     applicationSystem = models.CharField(db_index=True, blank=True, max_length=150, verbose_name="System")
     applicationDescription = models.TextField(verbose_name="Beskrivelse")
-    applicationSystemOwner = models.CharField(db_index=True,max_length=250,verbose_name="Applikationsejer")
+    applicationSystemOwner = models.CharField(db_index=True,max_length=250,verbose_name="Ejer")
     applicationSystemOwnerContact = models.CharField(db_index=True, blank=True, max_length=250, verbose_name="Kontakt") 
 
 class SupportDocumentation(models.Model):
