@@ -2,10 +2,6 @@
 
 Checkout from github
 
-run:
-virtualenv -p python3 projectunicorn-env
-
-you should now have a projectunicorn-env folder next to manage.py
 
 
 ##On Windows bash.exe
@@ -16,22 +12,40 @@ sudo python get-pip.py
 
 git clone https://github.com/ProjectUnicorn/ProjectUnicorn
 cd ProjectUnicorn
-vim projectunicorn/settings.py # tilføj localhost i ALLOWED_HOSTS og ændr til
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'db.sqlite3',
-    }
-}
 
-virtualenv -p python3 projectunicorn-env
-source projectunicorn-env/bin/activate
+## Setup virtualenv
+Should be next to manage.py
 
-pip install django
-pip install django_tables2
-pip install django_filter <-- filters? 
+`virtualenv -p python3 projectunicorn-env`
+`source projectunicorn-env/bin/activate`
 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver 8080
-```
+`pip install django`
+`pip install django-tables2`
+`pip install django-filter`
+`pip install djangorestframework`
+`pip install markdown`
+`pip install mysqlclient`
+If mysqlclient install fails, then install the following package, and try again.
+`sudo apt-get install libmysqlclient-dev`
+
+## Setup settings
+1. Open projectunicorn/settings.py
+2. Find ALLOWED_HOSTS and uncomment localhost
+3. Find DATABASES and comment/uncomment to fit your database setup
+
+
+## Setup database
+`python manage.py makemigrations`
+`python manage.py migrate`
+
+## Start server
+`python manage.py runserver 8080`
+
+# API
+using HTTPie
+	/api/applicationlist
+		applicationlist API
+		`http get localhost:8000/api/applicationlist/ 'Authorization: Token foo'`
+	/api/token
+		get token on user.
+		`http get localhost:8000/api/token/ username='foo' password='bar'`

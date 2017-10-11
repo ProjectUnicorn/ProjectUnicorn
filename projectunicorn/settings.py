@@ -12,14 +12,9 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 import os
 import json
-# Function to check if sql credentials "MySQL_Credentials.cnf" exists. Output True/False
-from projectunicorn.settingsfunctions import check_if_sql_directory_exists
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-# Determines if this is development or production
-production_validation = check_if_sql_directory_exists(BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
@@ -32,9 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'projectunicorn.test.aau.dk',
+    'localhost',
 ]
-if production_validation == False: # Means it must be development envirionement, thus the need to add localhost.
-	ALLOWED_HOSTS.append('localhost')
 
 # Application definition
 
@@ -84,25 +78,22 @@ WSGI_APPLICATION = 'projectunicorn.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases 
-DATABASES = {}
-if production_validation:
-    DATABASES = {
-	    'default': {
-	    	    'ENGINE': 'django.db.backends.mysql',
-		    'OPTIONS': {
-		    	'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-		    	'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
-		    },
-	    }
-    }
-else:
-    DATABASES = {
-	    'default': {
-		    'ENGINE': 'django.db.backends.sqlite3',
-		    'NAME': 'db.sqlite3',
-	    },
-    }
+# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
+DATABASES = {
+#    'default': {
+#    	    'ENGINE': 'django.db.backends.mysql',
+#	    'OPTIONS': {
+#	    	'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+#	    	'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
+#	    },
+#    }
+# Uncomment below and comment above if dev, this will enable a temp local sqlite3 db
+    'default': {
+	    'ENGINE': 'django.db.backends.sqlite3',
+	    'NAME': 'db.sqlite3',
+    },
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators

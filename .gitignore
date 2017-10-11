@@ -1,3 +1,4 @@
 projectunicorn-env
 *.pyc
 *.pyo
+.idea
