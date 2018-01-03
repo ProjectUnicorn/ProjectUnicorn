@@ -35,3 +35,15 @@ class ApplicationList(APIView):
   
   def post(self):
     pass
+
+# Get single application
+# api/application/<applicationId>
+class ApplicationDetail(APIView):
+
+    def get_object(self, id):
+        return Application.objects.get(applicationId=id)
+
+    def get(self, request, applicationId):
+        snippet = self.get_object(applicationId)
+        serializer = ApplicationSerializer(snippet)
+        return Response(serializer.data)

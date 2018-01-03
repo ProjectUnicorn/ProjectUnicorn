@@ -2,3 +2,4 @@ projectunicorn-env
 *.pyc
 *.pyo
 .idea
+.sqlite3

@@ -7,6 +7,7 @@ from . import views
 urlpatterns = [
     url(r'^$', views.ApplicationListTableView.as_view(), name='applicationlist_index'),
     url(r'^api/applicationlist/', views.ApplicationList.as_view()),
+    url(r'^api/application/(?P<applicationId>\d+)/$', views.ApplicationDetail.as_view()),
     url(r'^api/token/', authviews.obtain_auth_token),
 ]
 
