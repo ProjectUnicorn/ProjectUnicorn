@@ -9,6 +9,9 @@ urlpatterns = [
     url(r'^api/applicationlist/', views.ApplicationList.as_view()),
     url(r'^api/application/(?P<applicationId>\d+)/$', views.ApplicationDetail.as_view()),
     url(r'^api/token/', authviews.obtain_auth_token),
+    url(r'^login/', views.Login),
+    url(r'^logout/', views.Logout),
+    url(r'^edit/(?P<applicationId>\d+)/$', views.Edit, name='applicationlist_edit'),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

@@ -21,15 +21,30 @@
 	      <a class="navbar-brand" href="#">ITS Service & Systemliste</a>
 	    </div>
 	    <ul class="nav navbar-nav navbar-right">
+            <li>
+                {# LOGIN #}
+                {% if request.session.authenticated != None %}
+                    <a href="/logout">Logout <span class="glyphicon glyphicon glyphicon-log-out"></span></a></li>
+                {% endif %}
+                {% if request.session.authenticated == None %}
+                    <a href="/login">Login <span class="glyphicon glyphicon glyphicon-log-in"></span></a></li>
+                {% endif %}
+
+
+
 	      <li><a href="http://systems.srv.aau.dk">Systems <span class="glyphicon glyphicon-chevron-right"></span></a></li>
 	    </ul>
 	  </div>
 	</nav>
 <!-- CONTENT -->
+<!--
   <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+		 {#{% block content %}{% endblock %} #}
+  </div>
+ -->
+  <div class="col-sm-12 col-md-12 main">
 		{% block content %}{% endblock %}
   </div>
-	</div> <!--fjern de 2 sidste /divs? -->
-  </div>
+
 </body>
 </html>

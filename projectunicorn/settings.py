@@ -80,18 +80,18 @@ WSGI_APPLICATION = 'projectunicorn.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 DATABASES = {
-#    'default': {
-#    	    'ENGINE': 'django.db.backends.mysql',
-#	    'OPTIONS': {
-#	    	'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-#	    	'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
-#	    },
-#    }
-# Uncomment below and comment above if dev, this will enable a temp local sqlite3 db
     'default': {
-	    'ENGINE': 'django.db.backends.sqlite3',
-	    'NAME': 'db.sqlite3',
-    },
+    	    'ENGINE': 'django.db.backends.mysql',
+	    'OPTIONS': {
+	    	'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+	    	'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
+	    },
+    }
+# Uncomment below and comment above if dev, this will enable a temp local sqlite3 db
+#    'default': {
+#	    'ENGINE': 'django.db.backends.sqlite3',
+#	    'NAME': 'db.sqlite3',
+#    },
 }
 
 
@@ -207,3 +207,4 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
