@@ -39,4 +39,5 @@ urlpatterns = [
     url(r'^', include('applicationlist.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^oauth2/', include('django_auth_adfs.urls', namespace='auth_adfs')),
 ]

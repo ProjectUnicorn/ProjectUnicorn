@@ -22,8 +22,8 @@ class ApplicationListTableView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(ApplicationListTableView, self).get_context_data(**kwargs)
-        table = ApplicationListTable(self.get_queryset(**kwargs))
-        if 'authenticated' not in self.request.session:
+        table = ApplicationListTable(self.get_queryset(**kwargs))	
+        if not self.request.user.is_staff:
             table.exclude = ('edit')
         RequestConfig(self.request).configure(table)
         RequestConfig(self.request, paginate={'per_page': Application.objects.count()}).configure(table)
@@ -34,7 +34,7 @@ class ApplicationListTableView(TemplateView):
 # Edit applications
 def Edit(request, applicationId):
     instance = get_object_or_404(Application, applicationId=applicationId) # Get object or 404
-    if 'authenticated' in request.session:
+    if request.user.is_staff:
         if request.method == 'POST': # if HTTP POST method = something must have been saved.
             form = ApplicationForm(request.POST or None, instance=instance)
             if form.is_valid():
@@ -46,42 +46,7 @@ def Edit(request, applicationId):
             form = ApplicationForm(instance=instance)
             return render(request, 'applicationlist/applicationedit.html', {'form': form})
     else:
-        return HttpResponseRedirect('/login')
-
-
-'''
-
-User views
-
-'''
-# Login
-def Login(request):
-    # if this is a POST request we need to process the form data
-    if request.method == 'POST':
-        # create a form instance and populate it with data from the request:
-        form = LoginForm(request.POST)
-        # check whether it's valid:
-        if form.is_valid():
-            # Check up against the Active Directory
-            if CheckUserWithActiveDirectory(form.data['email'], form.data['password']):
-                request.session['authenticated'] = True
-                return HttpResponseRedirect('/')
-            else:
-                return HttpResponseRedirect('#')
-
-    # if a GET (or any other method) we'll create a blank form
-    else:
-        form = LoginForm()
-
-    return render(request, 'applicationlist/login.html', {'form': form})
-
-def Logout(request):
-    if 'authenticated' not in request.session:
-        HttpResponseRedirect('/')
-    else:
-        del request.session['authenticated']
-    request.session.modified = True # Force the change in the session table
-    return HttpResponseRedirect('/')
+        return HttpResponseRedirect('/')
 
 
 '''

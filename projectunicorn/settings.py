@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_auth_adfs',
     'rest_framework',
     'rest_framework.authtoken',
 ]
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_auth_adfs.middleware.LoginRequiredMiddleware',
 ]
 
 ROOT_URLCONF = 'projectunicorn.urls'
@@ -208,3 +210,18 @@ REST_FRAMEWORK = {
     ]
 }
 
+AUTHENTICATION_BACKENDS = (
+    'django_auth_adfs.backend.AdfsBackend',
+)
+
+AUTH_ADFS = {
+    "SERVER": "adfs.srv.aau.dk",
+    "CLIENT_ID": "Applist.id",
+    "RESOURCE": "Applist.id",
+    "AUTHORIZE_PATH": "/adfs/oauth2/authorize",
+#    "AUDIENCE": "http://adfs.srv.aau.dk/adfs/services/trust",
+    "ISSUER": "http://adfs.srv.aau.dk/adfs/services/trust",
+   # "CA_BUNDLE": "/path/to/ca-bundle.pem",
+    "CLAIM_MAPPING": {"first_name": "given_name", "last_name": "family_name", "email": "email"},
+    "REDIR_URI": "https://projectunicorn.test.aau.dk/oauth2/login",
+}
