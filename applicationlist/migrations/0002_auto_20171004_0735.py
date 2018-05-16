@@ -12,29 +12,29 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='application',
-            name='applicationSystem',
-            field=models.CharField(blank=True, db_index=True, max_length=150, verbose_name='System'),
-        ),
-        migrations.AddField(
-            model_name='application',
-            name='applicationSystemOwnerContact',
-            field=models.CharField(blank=True, db_index=True, max_length=250, verbose_name='Kontakt'),
-        ),
-        migrations.AlterField(
-            model_name='application',
-            name='applicationName',
-            field=models.CharField(db_index=True, max_length=250, verbose_name='Service'),
-        ),
-        migrations.AlterField(
-            model_name='application',
-            name='applicationSystemOwner',
-            field=models.CharField(db_index=True, max_length=250, verbose_name='Ejer'),
-        ),
-        migrations.AlterField(
-            model_name='supportdocumentation',
-            name='applicationOneNoteId',
-            field=models.CharField(blank=True, default=' ', max_length=250, null=True, verbose_name='OneNote ID'),
-        ),
+#        migrations.AddField(
+#            model_name='application',
+#            name='applicationSystem',
+#            field=models.CharField(blank=True, db_index=True, max_length=150, verbose_name='System'),
+#        ),
+#        migrations.AddField(
+#            model_name='application',
+#            name='applicationSystemOwnerContact',
+#            field=models.CharField(blank=True, db_index=True, max_length=250, verbose_name='Kontakt'),
+#        ),
+ #       migrations.AlterField(
+#            model_name='application',
+#            name='applicationName',
+#            field=models.CharField(db_index=True, max_length=250, verbose_name='Service'),
+#        ),
+#        migrations.AlterField(
+#            model_name='application',
+#            name='applicationSystemOwner',
+#            field=models.CharField(db_index=True, max_length=250, verbose_name='Ejer'),
+#        ),
+#        migrations.AlterField(
+#            model_name='supportdocumentation',
+#            name='applicationOneNoteId',
+#            field=models.CharField(blank=True, default=' ', max_length=250, null=True, verbose_name='OneNote ID'),
+#        ),
     ]
