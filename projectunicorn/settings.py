@@ -22,8 +22,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '@fcmuxzin7j&6(h@3(w)4&278&w^(b^q0ea#q=nv0scrdl=plx'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run ANY of the following settings in TRUE in production!
 DEBUG = True
+DISABLE_ADFS_AUTH = True
+DISABLE_EXTERNAL_DATABASE = False
+
 
 ALLOWED_HOSTS = [
     'projectunicorn.test.aau.dk',
@@ -55,8 +58,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django_auth_adfs.middleware.LoginRequiredMiddleware',
 ]
+
+if DISABLE_ADFS_AUTH == False:
+    MIDDLEWARE.append('django_auth_adfs.middleware.LoginRequiredMiddleware')
 
 ROOT_URLCONF = 'projectunicorn.urls'
 
@@ -81,20 +86,23 @@ WSGI_APPLICATION = 'projectunicorn.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-DATABASES = {
-    'default': {
-    	    'ENGINE': 'django.db.backends.mysql',
-	    'OPTIONS': {
-	    	'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-	    	'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
-	    },
+if DISABLE_EXTERNAL_DATABASE:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': 'db.sqlite3',
+        }
     }
-# Uncomment below and comment above if dev, this will enable a temp local sqlite3 db
-#    'default': {
-#	    'ENGINE': 'django.db.backends.sqlite3',
-#	    'NAME': 'db.sqlite3',
-#    },
-}
+else:
+    DATABASES = {
+        'default': {
+                'ENGINE': 'django.db.backends.mysql',
+            'OPTIONS': {
+                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+                'read_default_file': os.path.join(BASE_DIR, "../MySQL-Credentials.cnf")
+            },
+        }
+    }
 
 
 # Password validation
