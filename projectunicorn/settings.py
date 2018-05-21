@@ -24,7 +24,7 @@ SECRET_KEY = '@fcmuxzin7j&6(h@3(w)4&278&w^(b^q0ea#q=nv0scrdl=plx'
 
 # SECURITY WARNING: don't run ANY of the following settings in TRUE in production!
 DEBUG = True
-DISABLE_ADFS_AUTH = True
+DISABLE_ADFS_AUTH = False
 DISABLE_EXTERNAL_DATABASE = False
 
 
@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_auth_adfs',
     'rest_framework',
     'rest_framework.authtoken',
 ]
@@ -61,6 +60,7 @@ MIDDLEWARE = [
 ]
 
 if DISABLE_ADFS_AUTH == False:
+    INSTALLED_APPS.append('django_auth_adfs')
     MIDDLEWARE.append('django_auth_adfs.middleware.LoginRequiredMiddleware')
 
 ROOT_URLCONF = 'projectunicorn.urls'
@@ -218,9 +218,10 @@ REST_FRAMEWORK = {
     ]
 }
 
-AUTHENTICATION_BACKENDS = (
-    'django_auth_adfs.backend.AdfsBackend',
-)
+if DISABLE_ADFS_AUTH == False:
+    AUTHENTICATION_BACKENDS = (
+        'django_auth_adfs.backend.AdfsBackend',
+    )
 
 AUTH_ADFS = {
     "SERVER": "adfs.srv.aau.dk",
